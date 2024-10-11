@@ -1,0 +1,10 @@
+[package]
+name = "todo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+web-sys = "0.3"
+yew-router = { git = "https://github.com/yewstack/yew.git" }
+chrono = "0.4.38"
